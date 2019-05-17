@@ -101,8 +101,58 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    html {
+        font-size: 16px;
+    }
 
+    main {
+        background-color: #ffeb99;
+        width: 100%;
+    }
 
+    #title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    #img-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        background-color: #ffffe6;
+        width: 100%;
+    }
+
+    #image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 100%;
+        margin: 5px;
+    }
+
+    figure img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #img-caption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    #img-caption h4 {
+        margin: 0 0 10px 0;
+    }
 
 
 
