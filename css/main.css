@@ -154,9 +154,51 @@ textarea {
         margin: 0 0 10px 0;
     }
 
+    #tribute-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 100%;
+    }
 
+    #tribute-info h2 {
+        margin: 20px 15px 0px 15px;
+    }
 
+    #tribute-info ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 80%;
+        padding-left: 20px;
+    }
 
+    #tribute-info ul span {
+        font-weight: bold;
+    }
+
+    #tribute-info li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    #tribute-info blockquote {
+        margin: 0 10px;
+    }
+
+    #tribute-info blockquote p {
+        margin: 0 10px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    #tribute-info p {
+        margin: 16px 20px;
+    }
 
 
 
