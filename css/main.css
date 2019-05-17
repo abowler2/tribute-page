@@ -172,18 +172,11 @@ textarea {
         align-items: center;
         flex-flow: row wrap;
         width: 80%;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     #tribute-info ul span {
         font-weight: bold;
-    }
-
-    #tribute-info li {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-flow: row wrap;
     }
 
     #tribute-info blockquote {
