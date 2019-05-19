@@ -101,30 +101,25 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    html {
+    html body{
         font-size: 16px;
         font-family: 'Lato', sans-serif;
+        text-align: center;
     }
 
     main {
         background-color: #ffeb99;
         width: 100%;
     }
-    h1, h2 {
+    h1, h3 {
         font-family: 'Anton', sans-serif;
     }
 /***************** MOBILE STYLING ***************/
 
-    #title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column wrap;
-    }
-
     #title h1 {
         font-size: 3em;
-        margin-bottom: 5px;
+        margin: 21px 0 5px 0;
+        text-align: center;
     }
 
     #title h4 {
@@ -167,29 +162,25 @@ textarea {
     }
 
     #img-caption h4 {
-        margin: 0 0 10px 0;
+        margin-bottom: 10px;
     }
 
-    #tribute-info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        width: 100%;
-    }
-
-    #tribute-info h2 {
+    #tribute-info h3 {
         font-size: 1.5em;
-        margin: 30px 15px 0px 15px;
     }
 
     #tribute-info ul {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-flow: row wrap;
-        width: 80%;
-        padding-left: 0px;
+        max-width: 550px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .headline {
+        margin-top: 50px;
+    }
+    
+    #tribute-info li {
+        margin: 5px 10px;
     }
 
     #tribute-info ul span {
