@@ -142,7 +142,7 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-        width: 100%;
+        max-width: 100%;
         margin: 5px;
     }
 
@@ -286,7 +286,7 @@ textarea {
    ========================================================================== */
 
    @media only screen and (min-width: 768px) {
-    /************** TABLET STYLING *************/
+    /************** TABLET / DESKTOP STYLING *************/
 
     #title h1 {
         font-size: 3.25em;
